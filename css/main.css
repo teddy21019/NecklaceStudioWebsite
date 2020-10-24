@@ -1,0 +1,57 @@
+@import "./home.css";
+@import "./nav-bar.css";
+@import "./food.css";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Noto Serif TC', serif;
+}
+
+main{
+    height: 100vh;
+    scroll-snap-type: y proximity;
+    overflow: auto;
+}
+
+section{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+
+}
+
+
+
+
+.section-wrapper{
+    width: 100%;
+    height: 100%;
+    display: grid;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+p{
+    font-size: small;
+}
+
+img{
+    width: 100%;
+}
+
+#art{
+    background: red;
+}
+
+#food{
+    background-color: green;
+}

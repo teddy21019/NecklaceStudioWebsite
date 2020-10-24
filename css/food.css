@@ -1,0 +1,17 @@
+
+.section-wrapper-food{
+    grid-template-rows: 50% 25% 25%;
+
+}
+
+.food-image{
+    height: 100%;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.column-flex-image{
+    height: 100%;
+    object-fit: cover;
+
+}
